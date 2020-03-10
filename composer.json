@@ -1,0 +1,20 @@
+{
+    "name": "vendor/immo_lievin",
+    "description": "php components for immo_lievin",
+    "authors": [
+        {
+            "name": "Cleyam",
+            "email": "cleyam@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+                "App\\" : "app/",
+                "Core\\" : "core/"
+            }
+    },
+    "require": {
+        "rap2hpoutre/fast-excel": "^1.7",
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
